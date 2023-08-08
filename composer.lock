@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e782a635b8074667e473715a9b1ad05",
+    "content-hash": "47676fc068d35a5e6937a7d6f2757655",
     "packages": [
         {
             "name": "async-aws/core",
@@ -29615,16 +29615,16 @@
         },
         {
             "name": "spryker/merchant-product",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/merchant-product.git",
-                "reference": "5bc5d4057cc47fc2c84565ca2cfa947f005047f5"
+                "reference": "97dc8038488cc5ba1434c87b6c4c552a80ee9075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/merchant-product/zipball/5bc5d4057cc47fc2c84565ca2cfa947f005047f5",
-                "reference": "5bc5d4057cc47fc2c84565ca2cfa947f005047f5",
+                "url": "https://api.github.com/repos/spryker/merchant-product/zipball/97dc8038488cc5ba1434c87b6c4c552a80ee9075",
+                "reference": "97dc8038488cc5ba1434c87b6c4c552a80ee9075",
                 "shasum": ""
             },
             "require": {
@@ -29665,9 +29665,9 @@
             ],
             "description": "MerchantProduct module",
             "support": {
-                "source": "https://github.com/spryker/merchant-product/tree/1.4.0"
+                "source": "https://github.com/spryker/merchant-product/tree/1.5.0"
             },
-            "time": "2023-03-10T14:11:16+00:00"
+            "time": "2023-03-15T13:19:42+00:00"
         },
         {
             "name": "spryker/merchant-product-approval",
@@ -30101,16 +30101,16 @@
         },
         {
             "name": "spryker/merchant-product-storage",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/merchant-product-storage.git",
-                "reference": "d73ef820b45a6721ed91df2b59994db659a7fa60"
+                "reference": "219485b33a165525d98464e4da557201eb6c4da7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/merchant-product-storage/zipball/d73ef820b45a6721ed91df2b59994db659a7fa60",
-                "reference": "d73ef820b45a6721ed91df2b59994db659a7fa60",
+                "url": "https://api.github.com/repos/spryker/merchant-product-storage/zipball/219485b33a165525d98464e4da557201eb6c4da7",
+                "reference": "219485b33a165525d98464e4da557201eb6c4da7",
                 "shasum": ""
             },
             "require": {
@@ -30118,7 +30118,7 @@
                 "spryker/event-behavior": "^1.17.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/locale": "^3.5.0",
-                "spryker/merchant-product": "^1.3.0",
+                "spryker/merchant-product": "^1.5.0",
                 "spryker/merchant-product-offer-storage-extension": "^1.0.0",
                 "spryker/product-offer-storage-extension": "^1.0.0",
                 "spryker/product-storage": "^1.26.0",
@@ -30156,9 +30156,9 @@
             ],
             "description": "MerchantProductStorage module",
             "support": {
-                "source": "https://github.com/spryker/merchant-product-storage/tree/1.3.0"
+                "source": "https://github.com/spryker/merchant-product-storage/tree/1.4.0"
             },
-            "time": "2023-01-20T11:20:19+00:00"
+            "time": "2023-03-15T13:19:42+00:00"
         },
         {
             "name": "spryker/merchant-profile",
