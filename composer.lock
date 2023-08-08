@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fbcdccb80b42c0ea63b364281af31da",
+    "content-hash": "40255393cacdfd8b425cec127edc77cc",
     "packages": [
         {
             "name": "async-aws/core",
@@ -24714,16 +24714,16 @@
         },
         {
             "name": "spryker/development",
-            "version": "3.34.2",
+            "version": "3.34.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/development.git",
-                "reference": "1625e93110e48bf381d84c27ff1dc9389316ecb3"
+                "reference": "bac6d28f395270607754def70a3a2e2360728730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/development/zipball/1625e93110e48bf381d84c27ff1dc9389316ecb3",
-                "reference": "1625e93110e48bf381d84c27ff1dc9389316ecb3",
+                "url": "https://api.github.com/repos/spryker/development/zipball/bac6d28f395270607754def70a3a2e2360728730",
+                "reference": "bac6d28f395270607754def70a3a2e2360728730",
                 "shasum": ""
             },
             "require": {
@@ -24764,9 +24764,9 @@
             ],
             "description": "Development module",
             "support": {
-                "source": "https://github.com/spryker/development/tree/3.34.2"
+                "source": "https://github.com/spryker/development/tree/3.34.3"
             },
-            "time": "2022-12-23T11:50:03+00:00"
+            "time": "2023-02-09T12:28:48+00:00"
         },
         {
             "name": "spryker/discount",
