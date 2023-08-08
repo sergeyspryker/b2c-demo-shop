@@ -221,6 +221,7 @@
         "spryker/product-alternative-data-import": "1.1.0",
         "spryker/product-alternative-product-label-connector": "^1.1.1",
         "spryker/product-alternative-storage": "1.11.0",
+        "spryker/product-attributes-backend-api": "^1.0.0",
         "spryker/product-attributes-rest-api": "^1.0.0",
         "spryker/product-availabilities-rest-api": "^4.2.0",
         "spryker/product-bundle-carts-rest-api": "^1.0.0",
