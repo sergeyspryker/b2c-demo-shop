@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9698206092634481315560f1a43fe085",
+    "content-hash": "a1905ff8185f0117b776a88c330f420e",
     "packages": [
         {
             "name": "async-aws/core",
@@ -27077,20 +27077,20 @@
         },
         {
             "name": "spryker/glue-backend-api-application",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/glue-backend-api-application.git",
-                "reference": "9f4c627ec88033d2ef2244e812b51499b6d7df19"
+                "reference": "ab33db80c05a615ab6542deef8ca16f2b9fc33cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/glue-backend-api-application/zipball/9f4c627ec88033d2ef2244e812b51499b6d7df19",
-                "reference": "9f4c627ec88033d2ef2244e812b51499b6d7df19",
+                "url": "https://api.github.com/repos/spryker/glue-backend-api-application/zipball/ab33db80c05a615ab6542deef8ca16f2b9fc33cb",
+                "reference": "ab33db80c05a615ab6542deef8ca16f2b9fc33cb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/application": "^3.28.0",
                 "spryker/container": "^1.4.5",
                 "spryker/documentation-generator-api-extension": "^1.0.0",
@@ -27125,9 +27125,9 @@
             ],
             "description": "GlueBackendApiApplication module",
             "support": {
-                "source": "https://github.com/spryker/glue-backend-api-application/tree/1.0.0"
+                "source": "https://github.com/spryker/glue-backend-api-application/tree/1.1.0"
             },
-            "time": "2022-09-28T14:47:08+00:00"
+            "time": "2023-02-14T15:02:34+00:00"
         },
         {
             "name": "spryker/glue-json-api-convention",
@@ -27223,20 +27223,20 @@
         },
         {
             "name": "spryker/glue-storefront-api-application",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/glue-storefront-api-application.git",
-                "reference": "3789e31d3eaba5459e477f74b5a8b87064c68306"
+                "reference": "9d35c5734478ac469401803c20ce9a088987733d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/glue-storefront-api-application/zipball/3789e31d3eaba5459e477f74b5a8b87064c68306",
-                "reference": "3789e31d3eaba5459e477f74b5a8b87064c68306",
+                "url": "https://api.github.com/repos/spryker/glue-storefront-api-application/zipball/9d35c5734478ac469401803c20ce9a088987733d",
+                "reference": "9d35c5734478ac469401803c20ce9a088987733d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/application": "^3.28.0",
                 "spryker/container": "^1.4.5",
                 "spryker/documentation-generator-api-extension": "^1.0.0",
@@ -27272,9 +27272,9 @@
             ],
             "description": "GlueStorefrontApiApplication module",
             "support": {
-                "source": "https://github.com/spryker/glue-storefront-api-application/tree/1.0.0"
+                "source": "https://github.com/spryker/glue-storefront-api-application/tree/1.1.0"
             },
-            "time": "2022-09-28T14:47:08+00:00"
+            "time": "2023-02-14T15:02:34+00:00"
         },
         {
             "name": "spryker/graceful-runner",
@@ -38702,16 +38702,16 @@
         },
         {
             "name": "spryker/product-offer-storage",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-offer-storage.git",
-                "reference": "445d370c73766f6a405b33fb91e1ca8e8372ef40"
+                "reference": "d164a75a0fea657406a137a4dfe881e7d932a33a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-offer-storage/zipball/445d370c73766f6a405b33fb91e1ca8e8372ef40",
-                "reference": "445d370c73766f6a405b33fb91e1ca8e8372ef40",
+                "url": "https://api.github.com/repos/spryker/product-offer-storage/zipball/d164a75a0fea657406a137a4dfe881e7d932a33a",
+                "reference": "d164a75a0fea657406a137a4dfe881e7d932a33a",
                 "shasum": ""
             },
             "require": {
@@ -38758,9 +38758,9 @@
             ],
             "description": "ProductOfferStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-offer-storage/tree/1.2.0"
+                "source": "https://github.com/spryker/product-offer-storage/tree/1.3.0"
             },
-            "time": "2023-01-16T13:42:24+00:00"
+            "time": "2023-02-14T07:21:59+00:00"
         },
         {
             "name": "spryker/product-offer-storage-extension",
@@ -44248,20 +44248,20 @@
         },
         {
             "name": "spryker/scheduler",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/scheduler.git",
-                "reference": "ba73b4b67699cc539a082a2954df88849a03ab69"
+                "reference": "d594f93a4d2f3b871c1b94d42048d2ca1f804386"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/scheduler/zipball/ba73b4b67699cc539a082a2954df88849a03ab69",
-                "reference": "ba73b4b67699cc539a082a2954df88849a03ab69",
+                "url": "https://api.github.com/repos/spryker/scheduler/zipball/d594f93a4d2f3b871c1b94d42048d2ca1f804386",
+                "reference": "d594f93a4d2f3b871c1b94d42048d2ca1f804386",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=8.0",
                 "spryker/graceful-runner": "^1.0.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/scheduler-extension": "^1.0.0",
@@ -44296,9 +44296,9 @@
             ],
             "description": "Scheduler module",
             "support": {
-                "source": "https://github.com/spryker/scheduler/tree/1.2.0"
+                "source": "https://github.com/spryker/scheduler/tree/1.2.1"
             },
-            "time": "2021-02-17T09:10:22+00:00"
+            "time": "2023-02-13T08:47:24+00:00"
         },
         {
             "name": "spryker/scheduler-extension",
