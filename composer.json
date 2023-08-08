@@ -123,6 +123,7 @@
         "spryker/development": "3.34.2",
         "spryker/discount-calculation-connector": "^5.3.0",
         "spryker/discount-promotions-rest-api": "^1.4.0",
+        "spryker/documentation-generator-open-api": "1.2.0",
         "spryker/documentation-generator-rest-api": "^1.15.0",
         "spryker/entity-tags-rest-api": "^1.0.2",
         "spryker/flysystem": "^2.1.0",
