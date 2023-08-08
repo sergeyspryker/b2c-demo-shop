@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47676fc068d35a5e6937a7d6f2757655",
+    "content-hash": "9f97d13eabe4a8dad43ef5ef6017d0bc",
     "packages": [
         {
             "name": "async-aws/core",
@@ -38468,23 +38468,23 @@
         },
         {
             "name": "spryker/product-label-search",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-label-search.git",
-                "reference": "9e5331002edb60181f3927c6dae5fa1eaadccbec"
+                "reference": "05b4df6c9d86626c0377f3427f118c9886f93a26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-label-search/zipball/9e5331002edb60181f3927c6dae5fa1eaadccbec",
-                "reference": "9e5331002edb60181f3927c6dae5fa1eaadccbec",
+                "url": "https://api.github.com/repos/spryker/product-label-search/zipball/05b4df6c9d86626c0377f3427f118c9886f93a26",
+                "reference": "05b4df6c9d86626c0377f3427f118c9886f93a26",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
                 "spryker/event-behavior": "^1.1.0",
                 "spryker/kernel": "^3.30.0",
-                "spryker/product-label": "^3.6.0",
+                "spryker/product-label": "^3.7.0",
                 "spryker/product-page-search": "^0.1.0 || ^1.0.0 || ^2.2.0 || ^3.0.0",
                 "spryker/product-page-search-extension": "^1.0.0",
                 "spryker/publisher-extension": "^1.0.0",
@@ -38521,9 +38521,9 @@
             ],
             "description": "ProductLabelSearch module",
             "support": {
-                "source": "https://github.com/spryker/product-label-search/tree/2.4.0"
+                "source": "https://github.com/spryker/product-label-search/tree/2.5.0"
             },
-            "time": "2023-03-10T13:03:26+00:00"
+            "time": "2023-03-15T13:52:45+00:00"
         },
         {
             "name": "spryker/product-label-storage",
