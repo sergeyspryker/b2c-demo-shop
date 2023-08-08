@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1905ff8185f0117b776a88c330f420e",
+    "content-hash": "4ab793d44d73b1e9f4ad9a2b23d38367",
     "packages": [
         {
             "name": "async-aws/core",
@@ -16758,6 +16758,47 @@
                 "source": "https://github.com/spryker/catalog/tree/5.7.0"
             },
             "time": "2021-07-16T12:46:59+00:00"
+        },
+        {
+            "name": "spryker/catalog-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/catalog-extension.git",
+                "reference": "613a20224dc13f2d3a7ab268d40d81c73b109707"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/catalog-extension/zipball/613a20224dc13f2d3a7ab268d40d81c73b109707",
+                "reference": "613a20224dc13f2d3a7ab268d40d81c73b109707",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "CatalogExtension module",
+            "support": {
+                "source": "https://github.com/spryker/catalog-extension/tree/1.0.0"
+            },
+            "time": "2023-02-20T10:18:53+00:00"
         },
         {
             "name": "spryker/catalog-price-product-connector",
@@ -44619,6 +44660,73 @@
                 "source": "https://github.com/spryker/search-extension/tree/1.2.0"
             },
             "time": "2023-03-31T19:36:11+00:00"
+        },
+        {
+            "name": "spryker/search-http",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/search-http.git",
+                "reference": "5a5e006fb4c09b9fe1152e16e710dd7ceafd6859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/search-http/zipball/5a5e006fb4c09b9fe1152e16e710dd7ceafd6859",
+                "reference": "5a5e006fb4c09b9fe1152e16e710dd7ceafd6859",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "psr/http-message": "^1.0.0",
+                "spryker/catalog-extension": "^1.0.0",
+                "spryker/category-storage": "^2.0.0",
+                "spryker/guzzle": "^2.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/locale": "^1.0.0 || ^2.0.0 || ^3.0.0",
+                "spryker/log": "^3.0.0",
+                "spryker/message-broker-extension": "^1.0.0",
+                "spryker/money": "^2.8.0",
+                "spryker/product-storage": "^1.36.0",
+                "spryker/propel-orm": "^1.16.0",
+                "spryker/search-extension": "^1.1.0",
+                "spryker/storage": "^3.4.0",
+                "spryker/store": "^1.17.0",
+                "spryker/synchronization-behavior": "^1.0.0",
+                "spryker/synchronization-extension": "^1.0.0",
+                "spryker/transfer": "^3.27.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/queue": "*",
+                "spryker/session": "*",
+                "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/catalog": "Add Catalog Module if you need to use Catalog Module",
+                "spryker/product-page-search": "Add Product Page Search Module if you need to use Product Page Search Module",
+                "spryker/search": "Add Search Module if you need to use Search Module"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SearchHttp module",
+            "support": {
+                "source": "https://github.com/spryker/search-http/tree/0.1.0"
+            },
+            "time": "2023-02-20T10:18:53+00:00"
         },
         {
             "name": "spryker/secrets-manager",
