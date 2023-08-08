@@ -256,6 +256,8 @@
         "spryker/product-option-cart-connector": "^7.1.2",
         "spryker/product-options-rest-api": "^1.2.0",
         "spryker/product-prices-rest-api": "^1.6.0",
+        "spryker/product-review": "2.10.0",
+        "spryker/product-review-gui": "1.5.0",
         "spryker/product-reviews-rest-api": "^1.0.1",
         "spryker/product-set": "1.6.2",
         "spryker/product-set-gui": "2.6.0",
