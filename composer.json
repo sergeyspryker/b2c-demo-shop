@@ -191,7 +191,7 @@
         "spryker/file-manager": "2.1.0",
         "spryker/file-manager-gui": "2.3.1",
         "spryker/file-manager-storage": "2.2.0",
-        "spryker/flysystem": "^2.1.0",
+        "spryker/flysystem": "2.2.0",
         "spryker/flysystem-ftp-file-system": "^2.0.0",
         "spryker/flysystem-local-file-system": "^2.0.0",
         "spryker/form": "1.2.0",
