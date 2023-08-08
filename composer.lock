@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccb33e0c07c45a2ffaff9f721a4a8718",
+    "content-hash": "1b3ffef1f46bb9ba2aacc5acebb15098",
     "packages": [
         {
             "name": "async-aws/core",
@@ -20782,16 +20782,16 @@
         },
         {
             "name": "spryker/cms-user-connector",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/cms-user-connector.git",
-                "reference": "43f24fb1e3000050ad70c24abcdf32818faeef2a"
+                "reference": "e46bc404407f37f05ff229811a0dc667dd085d7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/cms-user-connector/zipball/43f24fb1e3000050ad70c24abcdf32818faeef2a",
-                "reference": "43f24fb1e3000050ad70c24abcdf32818faeef2a",
+                "url": "https://api.github.com/repos/spryker/cms-user-connector/zipball/e46bc404407f37f05ff229811a0dc667dd085d7f",
+                "reference": "e46bc404407f37f05ff229811a0dc667dd085d7f",
                 "shasum": ""
             },
             "require": {
@@ -20800,7 +20800,7 @@
                 "spryker/cms-extension": "^1.0.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/transfer": "^3.27.0",
-                "spryker/user": "^3.16.0"
+                "spryker/user": "^3.17.0"
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
@@ -20824,9 +20824,9 @@
             ],
             "description": "CmsUserConnector module",
             "support": {
-                "source": "https://github.com/spryker/cms-user-connector/tree/1.2.0"
+                "source": "https://github.com/spryker/cms-user-connector/tree/1.3.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/collector",
@@ -30272,16 +30272,16 @@
         },
         {
             "name": "spryker/merchant-user-gui",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/merchant-user-gui.git",
-                "reference": "14f37976e56a3930f5028687231b2c663f8b807e"
+                "reference": "1fd8bff57d04b45cb0647d8d9a236f55367ca9b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/merchant-user-gui/zipball/14f37976e56a3930f5028687231b2c663f8b807e",
-                "reference": "14f37976e56a3930f5028687231b2c663f8b807e",
+                "url": "https://api.github.com/repos/spryker/merchant-user-gui/zipball/1fd8bff57d04b45cb0647d8d9a236f55367ca9b2",
+                "reference": "1fd8bff57d04b45cb0647d8d9a236f55367ca9b2",
                 "shasum": ""
             },
             "require": {
@@ -30289,7 +30289,7 @@
                 "spryker/gui": "^3.45.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/merchant-gui-extension": "^1.1.0",
-                "spryker/merchant-user": "^1.2.0",
+                "spryker/merchant-user": "^1.3.0",
                 "spryker/router": "^1.12.0",
                 "spryker/symfony": "^3.0.0",
                 "spryker/transfer": "^3.27.0"
@@ -30314,9 +30314,9 @@
             ],
             "description": "MerchantUserGui module",
             "support": {
-                "source": "https://github.com/spryker/merchant-user-gui/tree/1.4.0"
+                "source": "https://github.com/spryker/merchant-user-gui/tree/1.5.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/message-broker",
@@ -31975,16 +31975,16 @@
         },
         {
             "name": "spryker/oauth-user-connector",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/oauth-user-connector.git",
-                "reference": "7558a08e8b114f52288d701a8a701ef49b63ad7a"
+                "reference": "992c81dad6a3e8831ed05c9b60d60785f7753a08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/oauth-user-connector/zipball/7558a08e8b114f52288d701a8a701ef49b63ad7a",
-                "reference": "7558a08e8b114f52288d701a8a701ef49b63ad7a",
+                "url": "https://api.github.com/repos/spryker/oauth-user-connector/zipball/992c81dad6a3e8831ed05c9b60d60785f7753a08",
+                "reference": "992c81dad6a3e8831ed05c9b60d60785f7753a08",
                 "shasum": ""
             },
             "require": {
@@ -31993,7 +31993,7 @@
                 "spryker/oauth": "^2.4.0",
                 "spryker/oauth-extension": "^1.5.0",
                 "spryker/transfer": "^3.27.0",
-                "spryker/user": "^3.16.0",
+                "spryker/user": "^3.17.0",
                 "spryker/util-encoding": "^2.0.0"
             },
             "require-dev": {
@@ -32022,9 +32022,9 @@
             ],
             "description": "OauthUserConnector module",
             "support": {
-                "source": "https://github.com/spryker/oauth-user-connector/tree/1.1.0"
+                "source": "https://github.com/spryker/oauth-user-connector/tree/1.2.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/oms",
@@ -45497,16 +45497,16 @@
         },
         {
             "name": "spryker/security-gui",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/security-gui.git",
-                "reference": "11713db771626bd4bb24f8950e8b1cb7a59ce3e2"
+                "reference": "a0ca717dec4f606c6293bf40087d41dc5549cf09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/security-gui/zipball/11713db771626bd4bb24f8950e8b1cb7a59ce3e2",
-                "reference": "11713db771626bd4bb24f8950e8b1cb7a59ce3e2",
+                "url": "https://api.github.com/repos/spryker/security-gui/zipball/a0ca717dec4f606c6293bf40087d41dc5549cf09",
+                "reference": "a0ca717dec4f606c6293bf40087d41dc5549cf09",
                 "shasum": ""
             },
             "require": {
@@ -45518,7 +45518,7 @@
                 "spryker/security-gui-extension": "^1.2.0",
                 "spryker/symfony": "^3.5.0",
                 "spryker/transfer": "^3.27.0",
-                "spryker/user": "^3.16.0",
+                "spryker/user": "^3.17.0",
                 "spryker/user-password-reset": "^1.0.0"
             },
             "require-dev": {
@@ -45555,9 +45555,9 @@
             ],
             "description": "SecurityGui module",
             "support": {
-                "source": "https://github.com/spryker/security-gui/tree/1.2.0"
+                "source": "https://github.com/spryker/security-gui/tree/1.3.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/security-gui-extension",
@@ -45711,16 +45711,16 @@
         },
         {
             "name": "spryker/security-oauth-user",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/security-oauth-user.git",
-                "reference": "c5e0852e1086c3b986fe2f7acbf59767d12c23de"
+                "reference": "01d9a998e3c6c09ac75361ccc4e442fda1da5699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/security-oauth-user/zipball/c5e0852e1086c3b986fe2f7acbf59767d12c23de",
-                "reference": "c5e0852e1086c3b986fe2f7acbf59767d12c23de",
+                "url": "https://api.github.com/repos/spryker/security-oauth-user/zipball/01d9a998e3c6c09ac75361ccc4e442fda1da5699",
+                "reference": "01d9a998e3c6c09ac75361ccc4e442fda1da5699",
                 "shasum": ""
             },
             "require": {
@@ -45732,7 +45732,7 @@
                 "spryker/security-oauth-user-extension": "^1.0.0",
                 "spryker/symfony": "^3.5.0",
                 "spryker/transfer": "^3.27.0",
-                "spryker/user": "^3.16.0",
+                "spryker/user": "^3.17.0",
                 "spryker/util-text": "^1.3.0"
             },
             "require-dev": {
@@ -45766,9 +45766,9 @@
             ],
             "description": "SecurityOauthUser module",
             "support": {
-                "source": "https://github.com/spryker/security-oauth-user/tree/1.2.0"
+                "source": "https://github.com/spryker/security-oauth-user/tree/1.3.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/security-oauth-user-extension",
@@ -46207,16 +46207,16 @@
         },
         {
             "name": "spryker/session-user-validation",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/session-user-validation.git",
-                "reference": "a30108d88a75226c65944f7431c549bbdf1f34f9"
+                "reference": "e2d9febd3890084ae74901c8ea85bf7e74d763c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/session-user-validation/zipball/a30108d88a75226c65944f7431c549bbdf1f34f9",
-                "reference": "a30108d88a75226c65944f7431c549bbdf1f34f9",
+                "url": "https://api.github.com/repos/spryker/session-user-validation/zipball/e2d9febd3890084ae74901c8ea85bf7e74d763c7",
+                "reference": "e2d9febd3890084ae74901c8ea85bf7e74d763c7",
                 "shasum": ""
             },
             "require": {
@@ -46226,7 +46226,7 @@
                 "spryker/session-user-validation-extension": "^1.0.0",
                 "spryker/symfony": "^3.8.0",
                 "spryker/transfer": "^3.27.0",
-                "spryker/user": "^3.16.0"
+                "spryker/user": "^3.17.0"
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
@@ -46253,9 +46253,9 @@
             ],
             "description": "SessionUserValidation module",
             "support": {
-                "source": "https://github.com/spryker/session-user-validation/tree/1.1.0"
+                "source": "https://github.com/spryker/session-user-validation/tree/1.2.0"
             },
-            "time": "2023-02-08T12:23:08+00:00"
+            "time": "2023-03-03T10:26:17+00:00"
         },
         {
             "name": "spryker/session-user-validation-extension",
