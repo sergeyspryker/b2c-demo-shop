@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b036e9043fec12419f4587f201caf3c",
+    "content-hash": "1865226c8c8ad9b100ff61300ddd0b80",
     "packages": [
         {
             "name": "async-aws/core",
@@ -48279,16 +48279,16 @@
         },
         {
             "name": "spryker/shipments-rest-api",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/shipments-rest-api.git",
-                "reference": "64f89724897034b5595f1aeb06437a13d0106f1f"
+                "reference": "678c94c2f8290d31b62ced4b4f958571efe35ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/shipments-rest-api/zipball/64f89724897034b5595f1aeb06437a13d0106f1f",
-                "reference": "64f89724897034b5595f1aeb06437a13d0106f1f",
+                "url": "https://api.github.com/repos/spryker/shipments-rest-api/zipball/678c94c2f8290d31b62ced4b4f958571efe35ab9",
+                "reference": "678c94c2f8290d31b62ced4b4f958571efe35ab9",
                 "shasum": ""
             },
             "require": {
@@ -48299,7 +48299,7 @@
                 "spryker/kernel": "^3.30.0",
                 "spryker/orders-rest-api-extension": "^1.1.0",
                 "spryker/quote-requests-rest-api-extension": "^1.0.0",
-                "spryker/shipment": "^6.11.0 || ^7.0.0 || ^8.0.0",
+                "spryker/shipment": "^6.11.0 || ^7.3.0 || ^8.12.0",
                 "spryker/shipments-rest-api-extension": "^1.0.0",
                 "spryker/symfony": "^3.3.0"
             },
@@ -48326,9 +48326,9 @@
             ],
             "description": "ShipmentsRestApi module",
             "support": {
-                "source": "https://github.com/spryker/shipments-rest-api/tree/1.6.1"
+                "source": "https://github.com/spryker/shipments-rest-api/tree/1.7.0"
             },
-            "time": "2022-12-29T12:04:01+00:00"
+            "time": "2023-03-21T13:22:02+00:00"
         },
         {
             "name": "spryker/shipments-rest-api-extension",

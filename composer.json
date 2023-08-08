@@ -361,7 +361,7 @@
         "spryker/shipment-cart-connector": "^2.1.1",
         "spryker/shipment-checkout-connector": "^2.0.4",
         "spryker/shipment-discount-connector": "^4.0.5",
-        "spryker/shipments-rest-api": "1.6.1",
+        "spryker/shipments-rest-api": "1.7.0",
         "spryker/state-machine": "2.17.0",
         "spryker/stock-data-import": "1.2.1",
         "spryker/storage-gui": "^1.0.0",
