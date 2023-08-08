@@ -304,6 +304,7 @@
         "spryker/sales-return-gui": "1.5.0",
         "spryker/sales-returns-rest-api": "^1.1.0",
         "spryker/sales-statistics": "^1.2.0",
+        "spryker/scheduler": "1.2.1",
         "spryker/scheduler-jenkins": "^1.2.1",
         "spryker/secrets-manager": "^1.0.0",
         "spryker/secrets-manager-aws": "^1.0.1",
