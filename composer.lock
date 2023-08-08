@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "849d3de275513f11576a1defeac1197e",
+    "content-hash": "603397fb8ab96ff5f36a1e1e0dfc82e7",
     "packages": [
         {
             "name": "async-aws/core",
@@ -46757,22 +46757,23 @@
         },
         {
             "name": "spryker/security-blocker",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/security-blocker.git",
-                "reference": "bec52aa940533bf4130c6c5fa54ef00eb928f535"
+                "reference": "21a1dff06d862c485a7e5e5a60963424e9118431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/security-blocker/zipball/bec52aa940533bf4130c6c5fa54ef00eb928f535",
-                "reference": "bec52aa940533bf4130c6c5fa54ef00eb928f535",
+                "url": "https://api.github.com/repos/spryker/security-blocker/zipball/21a1dff06d862c485a7e5e5a60963424e9118431",
+                "reference": "21a1dff06d862c485a7e5e5a60963424e9118431",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/redis": "^2.5.0",
+                "spryker/security-blocker-extension": "^1.0.0",
                 "spryker/transfer": "^3.25.0"
             },
             "require-dev": {
@@ -46796,9 +46797,248 @@
             ],
             "description": "SecurityBlocker module",
             "support": {
-                "source": "https://github.com/spryker/security-blocker/tree/1.1.1"
+                "source": "https://github.com/spryker/security-blocker/tree/1.2.0"
             },
-            "time": "2022-12-29T12:04:01+00:00"
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-backoffice",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-backoffice.git",
+                "reference": "a4d12e22bcab7159ab4c82d2870d754ffa6c5b4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-backoffice/zipball/a4d12e22bcab7159ab4c82d2870d754ffa6c5b4e",
+                "reference": "a4d12e22bcab7159ab4c82d2870d754ffa6c5b4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker-extension": "^1.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerBackoffice module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-backoffice/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-backoffice-gui",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-backoffice-gui.git",
+                "reference": "6fb790774528345610125f760ef9df464b1fcbc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-backoffice-gui/zipball/6fb790774528345610125f760ef9df464b1fcbc9",
+                "reference": "6fb790774528345610125f760ef9df464b1fcbc9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/event-dispatcher-extension": "^1.0.0",
+                "spryker/glossary": "^3.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker": "^1.2.0",
+                "spryker/symfony": "^3.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/container": "*",
+                "spryker/event-dispatcher": "*",
+                "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/container": "If you want to use EventDispatcherPlugin.",
+                "spryker/event-dispatcher": "If you want to use EventDispatcherPlugin."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerBackofficeGui module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-backoffice-gui/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-extension.git",
+                "reference": "3420e65e94ca1da656a79d60beca93325d8b8601"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-extension/zipball/3420e65e94ca1da656a79d60beca93325d8b8601",
+                "reference": "3420e65e94ca1da656a79d60beca93325d8b8601",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerExtension module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-extension/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-merchant-portal",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-merchant-portal.git",
+                "reference": "5c4ba5b244c629174c9503adc1b9f11c92273527"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-merchant-portal/zipball/5c4ba5b244c629174c9503adc1b9f11c92273527",
+                "reference": "5c4ba5b244c629174c9503adc1b9f11c92273527",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker-extension": "^1.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerMerchantPortal module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-merchant-portal/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-merchant-portal-gui",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-merchant-portal-gui.git",
+                "reference": "758d3ef7d03eeb38729371c6b891b830287abc80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-merchant-portal-gui/zipball/758d3ef7d03eeb38729371c6b891b830287abc80",
+                "reference": "758d3ef7d03eeb38729371c6b891b830287abc80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/event-dispatcher-extension": "^1.0.0",
+                "spryker/glossary": "^3.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker": "^1.2.0",
+                "spryker/symfony": "^3.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/container": "*",
+                "spryker/event-dispatcher": "*",
+                "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/container": "If you want to use EventDispatcherPlugin.",
+                "spryker/event-dispatcher": "If you want to use EventDispatcherPlugin."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerMerchantPortalGui module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-merchant-portal-gui/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
         },
         {
             "name": "spryker/security-blocker-rest-api",
@@ -46847,6 +47087,96 @@
                 "source": "https://github.com/spryker/security-blocker-rest-api/tree/1.0.0"
             },
             "time": "2020-12-28T18:08:55+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-storefront-agent",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-storefront-agent.git",
+                "reference": "d5e106cbb8efda718b2cb8d5b4090fb4fc4efbee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-storefront-agent/zipball/d5e106cbb8efda718b2cb8d5b4090fb4fc4efbee",
+                "reference": "d5e106cbb8efda718b2cb8d5b4090fb4fc4efbee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker-extension": "^1.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerStorefrontAgent module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-storefront-agent/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
+        },
+        {
+            "name": "spryker/security-blocker-storefront-customer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/security-blocker-storefront-customer.git",
+                "reference": "874adad23e90aa55f124aa8938342b8cf5a22137"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/security-blocker-storefront-customer/zipball/874adad23e90aa55f124aa8938342b8cf5a22137",
+                "reference": "874adad23e90aa55f124aa8938342b8cf5a22137",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/security-blocker-extension": "^1.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "SecurityBlockerStorefrontCustomer module",
+            "support": {
+                "source": "https://github.com/spryker/security-blocker-storefront-customer/tree/1.0.0"
+            },
+            "time": "2023-03-28T12:28:15+00:00"
         },
         {
             "name": "spryker/security-extension",
