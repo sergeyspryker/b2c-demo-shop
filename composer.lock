@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13432c74b234df211e74c728139a00b2",
+    "content-hash": "9e782a635b8074667e473715a9b1ad05",
     "packages": [
         {
             "name": "async-aws/core",
@@ -11830,16 +11830,16 @@
         },
         {
             "name": "spryker-shop/product-detail-page",
-            "version": "3.18.1",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/product-detail-page.git",
-                "reference": "e202aef26bc0bab92ffba1641fa46f44fee51ba2"
+                "reference": "bff4ca6413174757617f2d34b94e4fbe867dde90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/product-detail-page/zipball/e202aef26bc0bab92ffba1641fa46f44fee51ba2",
-                "reference": "e202aef26bc0bab92ffba1641fa46f44fee51ba2",
+                "url": "https://api.github.com/repos/spryker-shop/product-detail-page/zipball/bff4ca6413174757617f2d34b94e4fbe867dde90",
+                "reference": "bff4ca6413174757617f2d34b94e4fbe867dde90",
                 "shasum": ""
             },
             "require": {
@@ -11889,9 +11889,9 @@
             ],
             "description": "ProductDetailPage module",
             "support": {
-                "source": "https://github.com/spryker-shop/product-detail-page/tree/3.18.1"
+                "source": "https://github.com/spryker-shop/product-detail-page/tree/3.19.0"
             },
-            "time": "2023-01-27T14:36:44+00:00"
+            "time": "2023-03-14T10:53:22+00:00"
         },
         {
             "name": "spryker-shop/product-discontinued-widget",
@@ -37725,16 +37725,16 @@
         },
         {
             "name": "spryker/product-discontinued-storage",
-            "version": "1.14.0",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-discontinued-storage.git",
-                "reference": "b7b3c16d3cc431fd50c75e82a45279cecdbdb598"
+                "reference": "d1dc994b785c507aee0ebb318ad8b176c23c68ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-discontinued-storage/zipball/b7b3c16d3cc431fd50c75e82a45279cecdbdb598",
-                "reference": "b7b3c16d3cc431fd50c75e82a45279cecdbdb598",
+                "url": "https://api.github.com/repos/spryker/product-discontinued-storage/zipball/d1dc994b785c507aee0ebb318ad8b176c23c68ab",
+                "reference": "d1dc994b785c507aee0ebb318ad8b176c23c68ab",
                 "shasum": ""
             },
             "require": {
@@ -37783,9 +37783,9 @@
             ],
             "description": "ProductDiscontinuedStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-discontinued-storage/tree/1.14.0"
+                "source": "https://github.com/spryker/product-discontinued-storage/tree/1.15.0"
             },
-            "time": "2023-01-16T13:42:24+00:00"
+            "time": "2023-03-14T10:53:17+00:00"
         },
         {
             "name": "spryker/product-discount-connector",
