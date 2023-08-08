@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f97d13eabe4a8dad43ef5ef6017d0bc",
+    "content-hash": "9ff638946eeaf32a3949f30766eb2d56",
     "packages": [
         {
             "name": "async-aws/core",
@@ -27869,6 +27869,47 @@
             "time": "2023-02-14T15:02:34+00:00"
         },
         {
+            "name": "spryker/glue-backend-api-application-authorization-connector-extension",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/glue-backend-api-application-authorization-connector-extension.git",
+                "reference": "d2305228c97772683b5d3c734b1cd2a91f50fa9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/glue-backend-api-application-authorization-connector-extension/zipball/d2305228c97772683b5d3c734b1cd2a91f50fa9d",
+                "reference": "d2305228c97772683b5d3c734b1cd2a91f50fa9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "GlueBackendApiApplicationAuthorizationConnectorExtension module",
+            "support": {
+                "source": "https://github.com/spryker/glue-backend-api-application-authorization-connector-extension/tree/1.1.0"
+            },
+            "time": "2023-07-11T13:58:55+00:00"
+        },
+        {
             "name": "spryker/glue-json-api-convention",
             "version": "1.0.0",
             "source": {
@@ -32083,6 +32124,47 @@
             "time": "2022-04-26T12:27:56+00:00"
         },
         {
+            "name": "spryker/oauth-backend-api-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/oauth-backend-api-extension.git",
+                "reference": "145540f0f52a6af36f246769af00b7589b7c1235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/oauth-backend-api-extension/zipball/145540f0f52a6af36f246769af00b7589b7c1235",
+                "reference": "145540f0f52a6af36f246769af00b7589b7c1235",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "OauthBackendApiExtension module",
+            "support": {
+                "source": "https://github.com/spryker/oauth-backend-api-extension/tree/1.0.0"
+            },
+            "time": "2023-03-16T13:08:01+00:00"
+        },
+        {
             "name": "spryker/oauth-client",
             "version": "1.2.0",
             "source": {
@@ -32647,6 +32729,61 @@
                 "source": "https://github.com/spryker/oauth-user-connector/tree/1.2.0"
             },
             "time": "2023-03-03T10:26:17+00:00"
+        },
+        {
+            "name": "spryker/oauth-warehouse",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/oauth-warehouse.git",
+                "reference": "b54f9d4e5c96324a23194eccc77003575cb9c15e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/oauth-warehouse/zipball/b54f9d4e5c96324a23194eccc77003575cb9c15e",
+                "reference": "b54f9d4e5c96324a23194eccc77003575cb9c15e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "psr/http-message": "^1.0.0",
+                "spryker/authorization-extension": "^1.1.0",
+                "spryker/installer-extension": "^1.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/oauth": "^2.4.0",
+                "spryker/oauth-extension": "^1.6.0",
+                "spryker/stock": "^8.7.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encoding": "^2.0.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/installer": "If you want to use Installer plugins."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "OauthWarehouse module",
+            "support": {
+                "source": "https://github.com/spryker/oauth-warehouse/tree/0.1.1"
+            },
+            "time": "2023-03-24T14:46:01+00:00"
         },
         {
             "name": "spryker/oms",
@@ -51661,6 +51798,61 @@
                 "source": "https://github.com/spryker/vault/tree/1.2.1"
             },
             "time": "2020-05-29T13:08:37+00:00"
+        },
+        {
+            "name": "spryker/warehouse-oauth-backend-api",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/warehouse-oauth-backend-api.git",
+                "reference": "baeabd1c3ec288b59fbce8cf12bb05f9b1eede2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/warehouse-oauth-backend-api/zipball/baeabd1c3ec288b59fbce8cf12bb05f9b1eede2d",
+                "reference": "baeabd1c3ec288b59fbce8cf12bb05f9b1eede2d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/authentication": "^1.0.0",
+                "spryker/glue-application-extension": "^1.10.0",
+                "spryker/glue-backend-api-application-authorization-connector-extension": "^1.0.0",
+                "spryker/kernel": "^3.66.0",
+                "spryker/oauth": "^2.4.0",
+                "spryker/oauth-backend-api-extension": "^1.0.0",
+                "spryker/symfony": "^3.0.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encoding": "^2.0.0",
+                "spryker/warehouse-user": "^0.1.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/glue-application": "^1.30.0"
+            },
+            "suggest": {
+                "spryker/glue-application": "If you want to use plugins with glue application."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "WarehouseOauthBackendApi module",
+            "support": {
+                "source": "https://github.com/spryker/warehouse-oauth-backend-api/tree/0.1.0"
+            },
+            "time": "2023-03-16T13:08:01+00:00"
         },
         {
             "name": "spryker/warehouse-user",
