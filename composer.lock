@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e26d4d610865dfa82888e1db10155bb3",
+    "content-hash": "7fc457b38dc6b7ade4975da92bcb270e",
     "packages": [
         {
             "name": "async-aws/core",
@@ -38702,16 +38702,16 @@
         },
         {
             "name": "spryker/product-offer-storage",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-offer-storage.git",
-                "reference": "4c2e0f458ebd444b943228411413f2879ffca40b"
+                "reference": "d164a75a0fea657406a137a4dfe881e7d932a33a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-offer-storage/zipball/4c2e0f458ebd444b943228411413f2879ffca40b",
-                "reference": "4c2e0f458ebd444b943228411413f2879ffca40b",
+                "url": "https://api.github.com/repos/spryker/product-offer-storage/zipball/d164a75a0fea657406a137a4dfe881e7d932a33a",
+                "reference": "d164a75a0fea657406a137a4dfe881e7d932a33a",
                 "shasum": ""
             },
             "require": {
@@ -38758,9 +38758,9 @@
             ],
             "description": "ProductOfferStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-offer-storage/tree/1.2.1"
+                "source": "https://github.com/spryker/product-offer-storage/tree/1.3.0"
             },
-            "time": "2023-02-13T09:09:40+00:00"
+            "time": "2023-02-14T07:21:59+00:00"
         },
         {
             "name": "spryker/product-offer-storage-extension",
