@@ -167,6 +167,7 @@
         "spryker/content-product-abstract-lists-rest-api": "^1.2.0",
         "spryker/content-product-gui": "1.1.2",
         "spryker/customer-access-rest-api": "^1.1.2",
+        "spryker/customer-access-storage": "1.8.0",
         "spryker/customer-group": "2.6.1",
         "spryker/customer-group-discount-connector": "^2.2.0",
         "spryker/customer-note-gui": "1.2.1",
