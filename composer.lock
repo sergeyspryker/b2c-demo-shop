@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dee0a79becf904e4e036021b0116f063",
+    "content-hash": "e382a68a6d6ef71ea12c34c046cb8008",
     "packages": [
         {
             "name": "async-aws/core",
@@ -42512,16 +42512,16 @@
         },
         {
             "name": "spryker/sales",
-            "version": "11.36.1",
+            "version": "11.36.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/sales.git",
-                "reference": "4b15944221641d7a5b5bb8e0b42e0e06e6bf74f4"
+                "reference": "5aaba839e1de6842d5e1fd27b676e72e41c04325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/sales/zipball/4b15944221641d7a5b5bb8e0b42e0e06e6bf74f4",
-                "reference": "4b15944221641d7a5b5bb8e0b42e0e06e6bf74f4",
+                "url": "https://api.github.com/repos/spryker/sales/zipball/5aaba839e1de6842d5e1fd27b676e72e41c04325",
+                "reference": "5aaba839e1de6842d5e1fd27b676e72e41c04325",
                 "shasum": ""
             },
             "require": {
@@ -42585,9 +42585,9 @@
             ],
             "description": "Sales module",
             "support": {
-                "source": "https://github.com/spryker/sales/tree/11.36.1"
+                "source": "https://github.com/spryker/sales/tree/11.36.2"
             },
-            "time": "2023-01-30T09:04:26+00:00"
+            "time": "2023-02-20T15:10:40+00:00"
         },
         {
             "name": "spryker/sales-configurable-bundle",
