@@ -160,7 +160,7 @@
         "spryker/oauth": "2.7.3",
         "spryker/oauth-agent-connector": "^1.0.2",
         "spryker/oauth-auth0": "^1.0.0",
-        "spryker/oauth-client": "^1.1.0",
+        "spryker/oauth-client": "1.2.0",
         "spryker/oauth-code-flow": "0.1.0",
         "spryker/oauth-customer-connector": "^1.8.0",
         "spryker/oauth-dummy": "^1.1.0",
