@@ -216,7 +216,7 @@
         "spryker/merchant-product-option-storage": "1.1.0",
         "spryker/merchant-product-search": "1.2.0",
         "spryker/merchant-product-storage": "1.4.0",
-        "spryker/merchant-profile": "1.2.0",
+        "spryker/merchant-profile": "1.2.1",
         "spryker/merchant-profile-gui": "1.1.0",
         "spryker/merchant-profile-merchant-portal-gui": "^2.0.0",
         "spryker/merchant-relationship": "1.11.0",
