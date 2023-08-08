@@ -92,6 +92,7 @@
         "spryker-shop/product-measurement-unit-widget": "1.1.1",
         "spryker-shop/product-packaging-unit-widget": "1.5.0",
         "spryker-shop/product-set-detail-page": "1.9.1",
+        "spryker-shop/security-blocker-page": "1.0.1",
         "spryker-shop/shop-application": "1.14.0",
         "spryker-shop/shop-router": "1.1.0",
         "spryker-shop/shop-translator": "1.2.0",
