@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ff638946eeaf32a3949f30766eb2d56",
+    "content-hash": "d1d98f1282fcacf8267528763efc3d58",
     "packages": [
         {
             "name": "async-aws/core",
@@ -27911,20 +27911,20 @@
         },
         {
             "name": "spryker/glue-json-api-convention",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/glue-json-api-convention.git",
-                "reference": "db7481cd5221dc4d5318b270400606cb27ed0ade"
+                "reference": "a92b7acf808fb36668cf3866b0a3ee1b71963f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/glue-json-api-convention/zipball/db7481cd5221dc4d5318b270400606cb27ed0ade",
-                "reference": "db7481cd5221dc4d5318b270400606cb27ed0ade",
+                "url": "https://api.github.com/repos/spryker/glue-json-api-convention/zipball/a92b7acf808fb36668cf3866b0a3ee1b71963f9b",
+                "reference": "a92b7acf808fb36668cf3866b0a3ee1b71963f9b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/doctrine-inflector": "^1.0.0",
                 "spryker/documentation-generator-api-extension": "^1.0.0",
                 "spryker/glue-application-extension": "^1.13.0",
@@ -27955,9 +27955,9 @@
             ],
             "description": "GlueJsonApiConvention module",
             "support": {
-                "source": "https://github.com/spryker/glue-json-api-convention/tree/1.0.0"
+                "source": "https://github.com/spryker/glue-json-api-convention/tree/1.1.0"
             },
-            "time": "2022-09-28T14:47:08+00:00"
+            "time": "2023-03-24T14:46:01+00:00"
         },
         {
             "name": "spryker/glue-json-api-convention-extension",
@@ -33859,6 +33859,65 @@
             "time": "2019-05-30T12:29:48+00:00"
         },
         {
+            "name": "spryker/picking-list",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/picking-list.git",
+                "reference": "f2d35bb46113e9df7a5cd13d0a901452b10d9183"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/picking-list/zipball/f2d35bb46113e9df7a5cd13d0a901452b10d9183",
+                "reference": "f2d35bb46113e9df7a5cd13d0a901452b10d9183",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/picking-list-extension": "^1.0.0",
+                "spryker/propel-orm": "^1.6.0",
+                "spryker/sales": "^11.7.0",
+                "spryker/stock": "^8.0.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/user-extension": "^1.0.0",
+                "spryker/uuid-behavior": "^1.0.0",
+                "spryker/warehouse-user": "^0.1.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/container": "*",
+                "spryker/oms": "*",
+                "spryker/propel": "*",
+                "spryker/testify": "*",
+                "spryker/user": "*"
+            },
+            "suggest": {
+                "spryker/oms": "If you want to use OMS plugins."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/",
+                    "SprykerTest\\Zed\\PickingList\\Helper\\": "tests/SprykerTest/Zed/PickingList/_support/Helper/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "PickingList module",
+            "support": {
+                "source": "https://github.com/spryker/picking-list/tree/0.2.0"
+            },
+            "time": "2023-04-17T15:49:27+00:00"
+        },
+        {
             "name": "spryker/picking-list-extension",
             "version": "1.0.0",
             "source": {
@@ -33899,6 +33958,104 @@
                 "source": "https://github.com/spryker/picking-list-extension/tree/1.0.0"
             },
             "time": "2023-03-24T14:46:01+00:00"
+        },
+        {
+            "name": "spryker/picking-lists-backend-api",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/picking-lists-backend-api.git",
+                "reference": "c7a0b5654f619e4c1eb23425eccae00cd9d2a60c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/picking-lists-backend-api/zipball/c7a0b5654f619e4c1eb23425eccae00cd9d2a60c",
+                "reference": "c7a0b5654f619e4c1eb23425eccae00cd9d2a60c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/glossary-storage": "^1.5.0",
+                "spryker/glue-application": "^1.47.0",
+                "spryker/glue-application-authorization-connector-extension": "^1.0.0",
+                "spryker/glue-application-extension": "^1.0.0",
+                "spryker/glue-json-api-convention-extension": "^1.0.0",
+                "spryker/kernel": "^3.66.0",
+                "spryker/oauth-warehouse": "^0.1.0",
+                "spryker/picking-list": "^0.1.0 || ^0.2.0",
+                "spryker/picking-lists-backend-api-extension": "^0.1.0",
+                "spryker/stock": "^8.8.0",
+                "spryker/symfony": "^3.5.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encoding": "^2.0.0",
+                "spryker/warehouse-user": "^0.1.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "PickingListsBackendApi module",
+            "support": {
+                "source": "https://github.com/spryker/picking-lists-backend-api/tree/0.2.0"
+            },
+            "time": "2023-05-24T17:55:49+00:00"
+        },
+        {
+            "name": "spryker/picking-lists-backend-api-extension",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/picking-lists-backend-api-extension.git",
+                "reference": "c5cc3fcb4a7b073c998e62e670d47c8098712ca8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/picking-lists-backend-api-extension/zipball/c5cc3fcb4a7b073c998e62e670d47c8098712ca8",
+                "reference": "c5cc3fcb4a7b073c998e62e670d47c8098712ca8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "PickingListsBackendApiExtension module",
+            "support": {
+                "source": "https://github.com/spryker/picking-lists-backend-api-extension/tree/0.1.0"
+            },
+            "time": "2023-04-17T15:49:27+00:00"
         },
         {
             "name": "spryker/price",
@@ -47601,16 +47758,16 @@
         },
         {
             "name": "spryker/shipment",
-            "version": "8.11.0",
+            "version": "8.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/shipment.git",
-                "reference": "be640ed85d1232e6e83c9a03830c89137884ca18"
+                "reference": "2a36e13bb679db8426cc637ead7aa40bc0de75e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/shipment/zipball/be640ed85d1232e6e83c9a03830c89137884ca18",
-                "reference": "be640ed85d1232e6e83c9a03830c89137884ca18",
+                "url": "https://api.github.com/repos/spryker/shipment/zipball/2a36e13bb679db8426cc637ead7aa40bc0de75e9",
+                "reference": "2a36e13bb679db8426cc637ead7aa40bc0de75e9",
                 "shasum": ""
             },
             "require": {
@@ -47627,12 +47784,13 @@
                 "spryker/price": "^5.5.0",
                 "spryker/propel-orm": "^1.0.0",
                 "spryker/sales": "^11.25.0",
+                "spryker/sales-extension": "^1.6.0",
                 "spryker/session": "^3.0.0 || ^4.0.0",
                 "spryker/shipment-extension": "^1.1.0",
                 "spryker/store": "^1.4.0",
                 "spryker/symfony": "^3.0.0",
                 "spryker/tax": "^5.0.0",
-                "spryker/transfer": "^3.25.0",
+                "spryker/transfer": "^3.27.0",
                 "spryker/util-encoding": "^2.0.0",
                 "spryker/zed-request": "^3.0.0"
             },
@@ -47665,9 +47823,9 @@
             ],
             "description": "Shipment module",
             "support": {
-                "source": "https://github.com/spryker/shipment/tree/8.11.0"
+                "source": "https://github.com/spryker/shipment/tree/8.13.0"
             },
-            "time": "2023-03-10T14:11:16+00:00"
+            "time": "2023-03-24T14:46:01+00:00"
         },
         {
             "name": "spryker/shipment-cart-connector",
@@ -48605,20 +48763,20 @@
         },
         {
             "name": "spryker/stock-data-import",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/stock-data-import.git",
-                "reference": "c0fc08acb1837e27eb844428f4d05e1946d14c75"
+                "reference": "fe608e996e1499ce3f0cae879811305387b8551f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/stock-data-import/zipball/c0fc08acb1837e27eb844428f4d05e1946d14c75",
-                "reference": "c0fc08acb1837e27eb844428f4d05e1946d14c75",
+                "url": "https://api.github.com/repos/spryker/stock-data-import/zipball/fe608e996e1499ce3f0cae879811305387b8551f",
+                "reference": "fe608e996e1499ce3f0cae879811305387b8551f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=8.0",
                 "spryker/data-import": "^1.4.3",
                 "spryker/kernel": "^3.33.0",
                 "spryker/stock": "^8.0.0",
@@ -48646,9 +48804,9 @@
             ],
             "description": "StockDataImport module",
             "support": {
-                "source": "https://github.com/spryker/stock-data-import/tree/1.2.0"
+                "source": "https://github.com/spryker/stock-data-import/tree/1.2.1"
             },
-            "time": "2021-02-24T08:50:39+00:00"
+            "time": "2023-03-24T14:46:01+00:00"
         },
         {
             "name": "spryker/stock-extension",
