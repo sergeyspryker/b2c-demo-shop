@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc6742e6c4cc0b0af6da64acf8a2a52e",
+    "content-hash": "1bd40186cf66e98991c69c344ca09a3a",
     "packages": [
         {
             "name": "async-aws/core",
@@ -24462,16 +24462,16 @@
         },
         {
             "name": "spryker/documentation-generator-open-api",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/documentation-generator-open-api.git",
-                "reference": "552a90adb7eae3de3c1fee9763203bb06b63cf8d"
+                "reference": "b6eda8eef2aa21bc9bf45ce84f127d67142930c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/documentation-generator-open-api/zipball/552a90adb7eae3de3c1fee9763203bb06b63cf8d",
-                "reference": "552a90adb7eae3de3c1fee9763203bb06b63cf8d",
+                "url": "https://api.github.com/repos/spryker/documentation-generator-open-api/zipball/b6eda8eef2aa21bc9bf45ce84f127d67142930c9",
+                "reference": "b6eda8eef2aa21bc9bf45ce84f127d67142930c9",
                 "shasum": ""
             },
             "require": {
@@ -24505,9 +24505,9 @@
             ],
             "description": "DocumentationGeneratorOpenApi module",
             "support": {
-                "source": "https://github.com/spryker/documentation-generator-open-api/tree/1.3.1"
+                "source": "https://github.com/spryker/documentation-generator-open-api/tree/1.3.2"
             },
-            "time": "2023-01-18T12:44:32+00:00"
+            "time": "2023-01-23T13:54:44+00:00"
         },
         {
             "name": "spryker/documentation-generator-rest-api",
