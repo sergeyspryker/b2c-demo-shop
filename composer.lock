@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7f83da1f8b106198fbef1e5c35835a9",
+    "content-hash": "fd4abb4bc89b5c91662d542d4afb13cd",
     "packages": [
         {
             "name": "async-aws/core",
@@ -36862,16 +36862,16 @@
         },
         {
             "name": "spryker/product-list",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-list.git",
-                "reference": "0afd11d060f4dcf5fd3984bbb15fba7b4337c100"
+                "reference": "f2cf0c520c6eed821055c4579b5638c4752cb630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-list/zipball/0afd11d060f4dcf5fd3984bbb15fba7b4337c100",
-                "reference": "0afd11d060f4dcf5fd3984bbb15fba7b4337c100",
+                "url": "https://api.github.com/repos/spryker/product-list/zipball/f2cf0c520c6eed821055c4579b5638c4752cb630",
+                "reference": "f2cf0c520c6eed821055c4579b5638c4752cb630",
                 "shasum": ""
             },
             "require": {
@@ -36910,9 +36910,9 @@
             ],
             "description": "ProductList module",
             "support": {
-                "source": "https://github.com/spryker/product-list/tree/1.7.0"
+                "source": "https://github.com/spryker/product-list/tree/1.7.1"
             },
-            "time": "2023-01-16T13:42:24+00:00"
+            "time": "2023-02-02T12:10:12+00:00"
         },
         {
             "name": "spryker/product-list-data-import",
