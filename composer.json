@@ -346,7 +346,7 @@
         "spryker/sales-statistics": "^1.2.0",
         "spryker/scheduler": "1.2.1",
         "spryker/scheduler-jenkins": "^1.2.1",
-        "spryker/search-http": "^0.1.0",
+        "spryker/search-http": "0.2.0",
         "spryker/secrets-manager": "^1.0.0",
         "spryker/secrets-manager-aws": "^1.0.1",
         "spryker/security": "1.7.1",

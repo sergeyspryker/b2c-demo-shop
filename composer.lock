@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a37016c9efb0fbd680d30fab0100adc",
+    "content-hash": "6fd5a178ff7d77241a6cd5f1f23b762b",
     "packages": [
         {
             "name": "async-aws/core",
@@ -46490,16 +46490,16 @@
         },
         {
             "name": "spryker/search-http",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/search-http.git",
-                "reference": "5a5e006fb4c09b9fe1152e16e710dd7ceafd6859"
+                "reference": "51ebcc14768117831a7e0d88b7a9460f9432cd9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/search-http/zipball/5a5e006fb4c09b9fe1152e16e710dd7ceafd6859",
-                "reference": "5a5e006fb4c09b9fe1152e16e710dd7ceafd6859",
+                "url": "https://api.github.com/repos/spryker/search-http/zipball/51ebcc14768117831a7e0d88b7a9460f9432cd9d",
+                "reference": "51ebcc14768117831a7e0d88b7a9460f9432cd9d",
                 "shasum": ""
             },
             "require": {
@@ -46551,9 +46551,9 @@
             ],
             "description": "SearchHttp module",
             "support": {
-                "source": "https://github.com/spryker/search-http/tree/0.1.0"
+                "source": "https://github.com/spryker/search-http/tree/0.2.0"
             },
-            "time": "2023-02-20T10:18:53+00:00"
+            "time": "2023-03-17T11:55:03+00:00"
         },
         {
             "name": "spryker/secrets-manager",
