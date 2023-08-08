@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d8609745e70d6084c1d529431a0b029",
+    "content-hash": "ee9cc3c2a83195a323a561d7627c5b23",
     "packages": [
         {
             "name": "async-aws/core",
@@ -19146,23 +19146,23 @@
         },
         {
             "name": "spryker/cms-block-gui",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/cms-block-gui.git",
-                "reference": "3a1deae431f0089142602db60fd0b6a0691d21d5"
+                "reference": "90391049ef610848c8a5a134479ff48572c06902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/cms-block-gui/zipball/3a1deae431f0089142602db60fd0b6a0691d21d5",
-                "reference": "3a1deae431f0089142602db60fd0b6a0691d21d5",
+                "url": "https://api.github.com/repos/spryker/cms-block-gui/zipball/90391049ef610848c8a5a134479ff48572c06902",
+                "reference": "90391049ef610848c8a5a134479ff48572c06902",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/cms-block": "^2.0.0 || ^3.0.0",
                 "spryker/cms-block-gui-extension": "^1.0.0",
-                "spryker/gui": "^3.45.0",
+                "spryker/gui": "^3.48.0",
                 "spryker/kernel": "^3.52.0",
                 "spryker/locale": "^3.0.0",
                 "spryker/propel-orm": "^1.0.0",
@@ -19203,9 +19203,9 @@
             ],
             "description": "CmsBlockGui module",
             "support": {
-                "source": "https://github.com/spryker/cms-block-gui/tree/2.9.0"
+                "source": "https://github.com/spryker/cms-block-gui/tree/2.10.0"
             },
-            "time": "2022-09-19T06:48:51+00:00"
+            "time": "2023-03-13T13:20:27+00:00"
         },
         {
             "name": "spryker/cms-block-gui-extension",
@@ -19879,16 +19879,16 @@
         },
         {
             "name": "spryker/cms-gui",
-            "version": "5.10.1",
+            "version": "5.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/cms-gui.git",
-                "reference": "86f6e0da3d4bca1e3f4d541f23fd986966decb78"
+                "reference": "2050c26c2fbfda84737b7d51c559c6c338abfb72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/cms-gui/zipball/86f6e0da3d4bca1e3f4d541f23fd986966decb78",
-                "reference": "86f6e0da3d4bca1e3f4d541f23fd986966decb78",
+                "url": "https://api.github.com/repos/spryker/cms-gui/zipball/2050c26c2fbfda84737b7d51c559c6c338abfb72",
+                "reference": "2050c26c2fbfda84737b7d51c559c6c338abfb72",
                 "shasum": ""
             },
             "require": {
@@ -19897,7 +19897,7 @@
                 "spryker/cms": "^7.0.0",
                 "spryker/cms-gui-extension": "^1.0.0",
                 "spryker/glossary": "^3.0.0",
-                "spryker/gui": "^3.45.0",
+                "spryker/gui": "^3.48.0",
                 "spryker/kernel": "^3.52.0",
                 "spryker/locale": "^3.0.0",
                 "spryker/symfony": "^3.0.0",
@@ -19937,9 +19937,9 @@
             ],
             "description": "CmsGui module",
             "support": {
-                "source": "https://github.com/spryker/cms-gui/tree/5.10.1"
+                "source": "https://github.com/spryker/cms-gui/tree/5.11.0"
             },
-            "time": "2023-03-10T12:46:34+00:00"
+            "time": "2023-03-13T13:20:27+00:00"
         },
         {
             "name": "spryker/cms-gui-extension",
@@ -30213,6 +30213,56 @@
                 "source": "https://github.com/spryker/merchant-profile/tree/1.2.0"
             },
             "time": "2023-03-10T14:11:16+00:00"
+        },
+        {
+            "name": "spryker/merchant-profile-gui",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/merchant-profile-gui.git",
+                "reference": "3e891aef410426e266ed0d7a7663058964fa2f0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/merchant-profile-gui/zipball/3e891aef410426e266ed0d7a7663058964fa2f0b",
+                "reference": "3e891aef410426e266ed0d7a7663058964fa2f0b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/country": "^3.0.0",
+                "spryker/glossary": "^3.0.0",
+                "spryker/gui": "^3.48.0",
+                "spryker/kernel": "^3.33.0",
+                "spryker/locale": "^3.0.0",
+                "spryker/merchant-gui-extension": "^1.0.0",
+                "spryker/merchant-profile": "^1.0.0",
+                "spryker/symfony": "^3.0.0",
+                "spryker/transfer": "^3.25.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "MerchantProfileGui module",
+            "support": {
+                "source": "https://github.com/spryker/merchant-profile-gui/tree/1.1.0"
+            },
+            "time": "2023-03-13T13:20:27+00:00"
         },
         {
             "name": "spryker/merchant-profile-merchant-portal-gui",
