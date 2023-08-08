@@ -136,7 +136,7 @@
         "spryker/money-gui": "^1.0.0",
         "spryker/navigations-category-nodes-resource-relationship": "^1.0.1",
         "spryker/navigations-rest-api": "^2.1.1",
-        "spryker/oauth": "2.7.1",
+        "spryker/oauth": "2.7.2",
         "spryker/oauth-agent-connector": "^1.0.2",
         "spryker/oauth-auth0": "^1.0.0",
         "spryker/oauth-client": "^1.1.0",
