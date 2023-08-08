@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "262ee9030e07a596e7675c243a08d5d1",
+    "content-hash": "2c70caf5cf0ee8611d031d9f0cbb8471",
     "packages": [
         {
             "name": "async-aws/core",
@@ -37602,24 +37602,24 @@
         },
         {
             "name": "spryker/product-image-storage",
-            "version": "1.14.0",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-image-storage.git",
-                "reference": "3d6eaeabe3c1c81538c9600caad80c19bc0b7694"
+                "reference": "ab4e157b84b07a2006d17cfbc3b0145e230b6e62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-image-storage/zipball/3d6eaeabe3c1c81538c9600caad80c19bc0b7694",
-                "reference": "3d6eaeabe3c1c81538c9600caad80c19bc0b7694",
+                "url": "https://api.github.com/repos/spryker/product-image-storage/zipball/ab4e157b84b07a2006d17cfbc3b0145e230b6e62",
+                "reference": "ab4e157b84b07a2006d17cfbc3b0145e230b6e62",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/event-behavior": "^1.10.0",
                 "spryker/kernel": "^3.30.0",
                 "spryker/product": "^5.5.0 || ^6.0.0",
-                "spryker/product-image": "^3.5.0",
+                "spryker/product-image": "^3.8.0",
                 "spryker/propel-orm": "^1.5.0",
                 "spryker/storage": "^3.4.0",
                 "spryker/synchronization": "^0.2.0 || ^1.0.0",
@@ -37632,6 +37632,7 @@
                 "spryker/product-attribute": "*",
                 "spryker/product-storage": "*",
                 "spryker/propel": "*",
+                "spryker/queue": "*",
                 "spryker/testify": "*"
             },
             "suggest": {
@@ -37655,9 +37656,9 @@
             ],
             "description": "ProductImageStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-image-storage/tree/1.14.0"
+                "source": "https://github.com/spryker/product-image-storage/tree/1.15.0"
             },
-            "time": "2022-04-18T08:41:46+00:00"
+            "time": "2023-03-07T08:36:29+00:00"
         },
         {
             "name": "spryker/product-label",

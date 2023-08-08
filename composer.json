@@ -263,6 +263,7 @@
         "spryker/product-discount-connector": "^5.1.0",
         "spryker/product-image-cart-connector": "^1.2.3",
         "spryker/product-image-sets-rest-api": "^1.0.5",
+        "spryker/product-image-storage": "1.15.0",
         "spryker/product-label-discount-connector": "^3.0.3",
         "spryker/product-label-search": "2.3.0",
         "spryker/product-label-storage": "2.6.0",
