@@ -113,7 +113,7 @@
         "spryker/catalog-search-products-resource-relationship": "^1.2.0",
         "spryker/catalog-search-rest-api": "^2.7.0",
         "spryker/categories-backend-api": "0.1.0",
-        "spryker/categories-rest-api": "^1.6.0",
+        "spryker/categories-rest-api": "1.7.0",
         "spryker/category-discount-connector": "1.1.0",
         "spryker/category-image": "1.1.4",
         "spryker/category-image-gui": "1.5.0",
